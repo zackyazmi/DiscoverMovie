@@ -17,6 +17,8 @@
 		1D40748E29A0D99200DB528D /* DiscoverMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D40748D29A0D99200DB528D /* DiscoverMovieTests.swift */; };
 		1D40749829A0D99200DB528D /* DiscoverMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D40749729A0D99200DB528D /* DiscoverMovieUITests.swift */; };
 		1D40749A29A0D99200DB528D /* DiscoverMovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D40749929A0D99200DB528D /* DiscoverMovieUITestsLaunchTests.swift */; };
+		1D4074AB29A0EA5A00DB528D /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4074AA29A0EA5A00DB528D /* UIView+Ext.swift */; };
+		1D4074AF29A0ED0B00DB528D /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4074AE29A0ED0B00DB528D /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1D40749329A0D99200DB528D /* DiscoverMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoverMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D40749729A0D99200DB528D /* DiscoverMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMovieUITests.swift; sourceTree = "<group>"; };
 		1D40749929A0D99200DB528D /* DiscoverMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D4074AA29A0EA5A00DB528D /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		1D4074AE29A0ED0B00DB528D /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				1D40747329A0D99000DB528D /* AppDelegate.swift */,
 				1D40747529A0D99000DB528D /* SceneDelegate.swift */,
 				1D40747729A0D99000DB528D /* ViewController.swift */,
+				1D4074AE29A0ED0B00DB528D /* MovieTableViewCell.swift */,
+				1D4074AA29A0EA5A00DB528D /* UIView+Ext.swift */,
 				1D40747929A0D99000DB528D /* Main.storyboard */,
 				1D40747F29A0D99200DB528D /* Assets.xcassets */,
 				1D40748129A0D99200DB528D /* LaunchScreen.storyboard */,
@@ -262,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D40747829A0D99000DB528D /* ViewController.swift in Sources */,
+				1D4074AF29A0ED0B00DB528D /* MovieTableViewCell.swift in Sources */,
+				1D4074AB29A0EA5A00DB528D /* UIView+Ext.swift in Sources */,
 				1D40747E29A0D99000DB528D /* DiscoverMovie.xcdatamodeld in Sources */,
 				1D40747429A0D99000DB528D /* AppDelegate.swift in Sources */,
 				1D40747629A0D99000DB528D /* SceneDelegate.swift in Sources */,
